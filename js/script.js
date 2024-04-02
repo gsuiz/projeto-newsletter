@@ -22,3 +22,10 @@ function validateEmail(email){
     return re.test(email)   
 }
 
+const img =  document.querySelector('.image__ilust')
+function diminuir(){
+    img.style.scale = '0.9'
+}
+function aumentar(){
+    img.style.scale = '1'
+}
